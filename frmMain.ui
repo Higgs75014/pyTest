@@ -17,10 +17,16 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>40</y>
+     <y>20</y>
      <width>281</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
   </widget>
   <widget class="QListWidget" name="lstBDD">
@@ -29,21 +35,103 @@
      <x>30</x>
      <y>80</y>
      <width>281</width>
-     <height>681</height>
+     <height>561</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
   </widget>
   <widget class="QTableView" name="tvDatas">
    <property name="geometry">
     <rect>
      <x>330</x>
-     <y>40</y>
+     <y>80</y>
      <width>1161</width>
-     <height>721</height>
+     <height>681</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">alternate-background-color: rgb(221, 221, 110);</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gbAllocataire">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>660</y>
+     <width>281</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gbDetailDossier">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>511</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="title">
+    <string>Détail du dossier</string>
+   </property>
+   <widget class="QLabel" name="lblDetail">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>411</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Etat: indemnisation - Reliquat: 91 - ARR (mois précédent): Non</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pbWWW">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>20</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent</string>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>
